@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>我的图片展示</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin: 20px 0;
+        }
+        .gallery img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .image-container {
+            flex: 1 1 300px;
+        }
+    </style>
+</head>
+<body>
+    <h1>欢迎来到我的图片展示</h1>
+    
+    <div class="intro">
+        <p>本公司专业销售英伟达高端算力服务器，合作品牌多，如超微、戴尔、技嘉等，可自由选择。提供搭载英伟达H200、B200及GB200的满配高算力服务器。公司成立至今，向国内多个大型算力中心提供了大量全新服务器。
+保交付，公司自有供应链渠道，稳定供货，可签违约协议。保售后，可返回原厂维修。保全新，可提供过往采购合同。</p>
+    </div>
+    
+    <div class="gallery">
+        <div class="image-container">
+            <img src="https://via.placeholder.com/600x400" alt="示例图片1">
+            <p>图片1描述</p>
+        </div>
+        <div class="image-container">
+            <img src="https://via.placeholder.com/600x400" alt="示例图片2">
+            <p>图片2描述</p>
+        </div>
+        <div class="image-container">
+            <img src="https://via.placeholder.com/600x400" alt="示例图片3">
+            <p>图片3描述</p>
+        </div>
+    </div>
+    
+    <footer>
+        <p>© 2025 我的图片展示. 保留所有权利.</p>
+    </footer>
+</body>
+</html>
